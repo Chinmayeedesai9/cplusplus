@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto space-y-3 md:space-y-0">
         <div className="flex items-center space-x-3">
           <img src="/logo.png" alt="Logo" className="w-8 h-8" />
-          <h1 className="text-xl font-bold">CPlusPlus.com</h1>
+          <h1 className="text-xl font-bold font-lemon">CPlusPlus.com</h1>
         </div>
         <div className="flex flex-wrap justify-center md:justify-end items-center gap-4">
           <Link to="/" className="hover:text-gray-300">Home</Link>
